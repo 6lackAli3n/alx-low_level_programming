@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description - Programming is like building a multilingual puzzle
+ * Description - "Programming is like building a multilingual puzzle"
  * return: 0 (success)
  */
 int main(void)
