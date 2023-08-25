@@ -1,10 +1,4 @@
 #include <stdio.h>
-/**
- * main - dream doesn't become reality through magic
- * Description - Add one line to this code,
- *
- * Return - 0
- */
 int main(void)
 {
 	int n;
