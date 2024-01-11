@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * add_dnodeint_end - Insert new node at the beginnig
+ * add_dnodeint - Insert new node at the beginnig
  * @head: Pointer to direction of the head
  * @n: The data integer
  * Return: The new node
