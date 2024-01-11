@@ -7,7 +7,7 @@
  * @n: The data integer
  * Return: The new node
  */
-dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new_mem;
 
@@ -18,8 +18,8 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	new_mem->n = n;
 	new_mem->prev = NULL;
-	new_mem->next = NULL;
-	if (*head == NULL)
+	new_mem->next = *head;
+	if (*head != NULL)
 		(*head)->prev = new_mem;
 	*head = new_mem;
 
