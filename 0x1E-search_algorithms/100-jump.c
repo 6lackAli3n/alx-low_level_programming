@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
- * jump_search - Searches for a value in a sorted array of integers using the Jump search algorithm
+ * jump_search - Searches for a value in a sorted array of integers
  * @array: Pointer to the first element of the array to search in
  * @size: Number of elements in the array
  * @value: The value to search for
- *
- * Return: The first index where value is located, or -1 if the value is not present or array is NULL
+ * Return: The first index where value is located,
+ * or -1 if the value is not present or array is NULL
  */
 int jump_search(int *array, size_t size, int value)
 {

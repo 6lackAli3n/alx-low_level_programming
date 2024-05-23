@@ -9,7 +9,8 @@
  * @right: The right index of the subarray to search in
  * @value: The value to search for
  *
- * Return: The index where value is located, or -1 if the value is not present
+ * Return: The index where value is located,
+ * or -1 if the value is not present
  */
 int binary_search_range(int *array, size_t left, size_t right, int value)
 {
@@ -40,13 +41,13 @@ int binary_search_range(int *array, size_t left, size_t right, int value)
 }
 
 /**
- * exponential_search - Searches for a value in a sorted array of integers using
- * the Exponential search algorithm.
+ * exponential_search - Searches for a value in a sorted array of integers
  * @array: Pointer to the first element of the array to search in
  * @size: The number of elements in the array
  * @value: The value to search for
  *
- * Return: The first index where value is located, or -1 if the value is not
+ * Return: The first index where value is located,
+ * or -1 if the value is not
  * present or array is NULL
  */
 int exponential_search(int *array, size_t size, int value)

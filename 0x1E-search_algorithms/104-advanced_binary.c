@@ -22,13 +22,14 @@ void print_array(int *array, size_t left, size_t right)
 }
 
 /**
- * advanced_binary_recursive - Recursively searches for a value in a sorted array
+ * advanced_binary_recursive - searches for a value in a sorted array
  * @array: Pointer to the first element of the array
  * @left: The starting index of the subarray to search
  * @right: The ending index of the subarray to search
  * @value: The value to search for
  *
- * Return: The index where value is located, or -1 if the value is not present
+ * Return: The index where value is located,
+ * or -1 if the value is not present
  */
 int advanced_binary_recursive(int *array, size_t left, size_t right, int value)
 {
